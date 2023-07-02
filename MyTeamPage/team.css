@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #FFFFFF;
+    font-family: PT Serif;
+    padding: 110px 220px 24px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+header h3{
+    font-size: 36px;
+}
+#creativeHead{
+    flex: 50%;
+}
+header .whoAbout{
+    width: 370px;
+    height: 87px;
+    font-family: Poppins;
+    flex: 50%;
+    padding-left: 140px;
+}
+.whoAbout h4{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+.whoAbout p{
+    padding-top: 10px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 140px;
+    column-gap: 77px;
+    row-gap: 45px;
+}
+.gridItem img{
+    width: 305px;
+    height: 470px;
+}
+figcaption{
+    font-size: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 10px;
+}
+#designation{
+    writing-mode: vertical-rl;
+    transform: translate3d(310px,-510px,0px);
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+}
+.second{
+    padding-top: 100px;
+}
+.five{
+    padding-top: 120px;
+}
+footer{
+    color: #A9A9A9;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+/* Laptop S size */
+@media screen and (max-width:1300px) {
+    body{
+        padding: 110px 70px 24px; ;
+    }
+    #creativeHead{
+        white-space: nowrap;
+    }
+    #creativeHead, .whoAbout{
+        flex: 50%;
+    }
+    header .whoAbout{
+        padding-left: 0px;
+    }
+    .grid-container{
+        grid-template-columns: auto auto auto;
+        margin-top: 100px;
+        row-gap: 0px;
+        column-gap: 50px;
+    }
+    .gridItem img{
+        width: 300px;
+        height: 380px;
+    }
+    figcaption{
+        font-size: 18px;
+        padding-top: 7px;
+    }
+    #designation{
+        writing-mode: vertical-lr;
+        transform: translate3d(305px,-415px,0px);
+        font-size: 10px;
+    }
+    .second{
+        padding-top: 100px;
+    }
+    .five{
+        padding-top: 120px;
+    }
+}
+/* Tablet Screens */
+@media screen and (max-width:900px) {
+    body{
+        padding: 71px 64px 30px 70px ;
+    }
+    #creativeHead{
+        white-space: nowrap;
+    }
+    #creativeHead, .whoAbout{
+        flex: 100%;
+    }
+    header .whoAbout{
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .grid-container{
+        grid-template-columns: auto auto;
+        margin-top: 100px;
+        row-gap: 0px;
+        column-gap: 50px;
+    }
+    .gridItem img{
+        width: 270px;
+        height: 360px;
+    }
+    figcaption{
+        font-size: 14px;
+        padding-top: 7px;
+    }
+    #designation{
+        writing-mode: vertical-lr;
+        transform: translate3d(275px,-390px,0px);
+        font-size: 10px;
+    }
+    .five{
+        padding-top: 0px;
+    }
+    .second{
+        padding-top: 0px;
+    }
+    .gridItem:nth-child(even){
+        padding-top: 100px;
+    }
+
+}
+/* Mobile screens */
+@media screen and (max-width:500px) {
+    body{
+        padding: 71px 24px 12px 30px ;
+    }
+    #creativeHead{
+        white-space: nowrap;
+    }
+    #creativeHead, .whoAbout{
+        flex: 100%;
+    }
+    header .whoAbout{
+        padding-left: 0px;
+        margin-top: 30px;
+    }
+    .grid-container{
+        grid-template-columns: auto auto;
+        margin-top: 100px;
+        row-gap: 0px;
+        column-gap: 30px;
+    }
+    .gridItem img{
+        width: 170px;
+        height: 260px;
+    }
+    figcaption{
+        font-size: 14px;
+        padding-top: 7px;
+    }
+    #designation{
+        writing-mode: vertical-lr;
+        transform: translate3d(175px,-290px,0px);
+        font-size: 10px;
+    }
+    .five{
+        padding-top: 0px;
+    }
+    .second{
+        padding-top: 0px;
+    }
+    .gridItem:nth-child(even){
+        padding-top: 100px;
+    }
+
+}
