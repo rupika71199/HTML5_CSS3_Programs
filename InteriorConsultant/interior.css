@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #181719;
+    color: white;
+    padding: 42px 50px 24px 77px;
+}
+#headTag{
+    font-family:Crimson Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    border: 1px solid white;
+    padding: 8px;
+}
+.menu,.close{
+    display: none;
+}
+header nav{
+    float: right;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 86px;
+    padding-bottom: 6px;
+}
+.active, nav a:hover{
+    border-bottom: 2px solid white;
+    font-weight: 700;
+}
+#sideContent{
+    width: 35%;
+    position: relative;
+    top: 240px;
+    float: left;
+}
+#sideContent #head{
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: normal;
+    cursor: default;
+}
+#sideContent p{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 30px 0px;
+    width: 400px;
+}
+#sideContent span{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#photoContent{
+    width: 65%;
+    float: left;
+    position: relative;
+    top: 130px;
+}
+#photoContent #mainPhoto{
+    width: 830px;
+    height: 590px;
+    margin-left: 15px;
+    position: relative;
+}
+#authorContent{
+    background-color: black;
+    width: 420px;
+    padding: 26px 34px;
+    height: 190px;
+    position: absolute;
+    left: 370px;
+    top: 500px;
+}
+#subPhoto{
+    border-radius: 50%;
+    display: inline-block;
+    width: 65px;
+}
+#subMain{
+    display: flex;
+    width: 400px;
+}
+#subText{
+    margin-left: 15px;
+    margin-top: 15px;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+#subText div:first-child{
+    font-size: 14px;
+}
+#subText div:last-child{
+    font-size: 12px;
+    color: #828282;
+}
+#authorDesignation{
+    font-family: Lora;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 25px;
+}
+footer{
+    color: #A9A9A9;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    clear: both;
+    position: relative;
+    top: 300px;
+    padding-bottom: 20px;
+}
+/* Tablet Screens */
+@media screen and (max-width:900px) {
+    body{
+        padding: 32px 28px 24px 55px;
+    }
+    .hidden{
+        display: none;
+    }
+    .display{
+        display: inline-block;
+    }
+    .menu{
+        width: 38px;
+        height: 38px;
+        position: relative;
+        left: 520px;
+        top:2px;
+    }
+    .menu:hover{
+        cursor: pointer;
+    }
+    .close{
+        width: 38px;
+        height: 38px;
+        position: relative;
+        left: 520px;
+    }
+    #headTag{
+        position: relative;
+        bottom: 10px;
+    }
+    header nav{
+        float: none;
+    }
+    .navigation a{
+        display: block;
+        text-align: center;
+        font-size: 28px;
+        margin-left: 0px;
+        padding-bottom: 20px;
+        position: relative;
+        left: 60px;
+        top: 250px;
+        z-index: 10;
+    }
+    .active, nav a:hover{
+        text-decoration: underline;
+        border-bottom: 0px solid white;
+        font-weight: 700;
+    }
+    #sideContent{
+        width: 100%;
+        position: relative;
+        top: 40px;
+        float: none;
+    }
+    #sideContent #head{
+        font-size: 40px;
+        font-family: 500;
+    }
+    #sideContent p{
+        font-size: 18px;
+        width: 570px;
+    }
+    #sideContent span{
+        font-size: 16px;
+    }
+    #photoContent{
+        width: 100%;
+        float: none;
+        position: relative;
+        top: 70px;
+    }
+    #photoContent #mainPhoto{
+        width: 590px;
+        height: 400px;
+        margin-left: 5px;
+        position: relative;
+    }
+    #authorContent{
+        background-color: black;
+        width: 350px;
+        padding: 26px 34px;
+        height: 190px;
+        position: absolute;
+        left: 165px;
+        top:330px;
+    }
+    #subPhoto{
+        width: 60px;
+    }
+    #subText div:first-child{
+        font-size: 12px;
+    }
+    #subText div:last-child{
+        font-size: 10px;
+        color: #828282;
+    }
+    #authorDesignation{
+        width: 210px;
+        font-size: 18px;
+    }
+    .overlay{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 85%;
+        height: 100%;
+        background-color: #181719;
+        backdrop-filter: blur(3px);
+        z-index: 5;
+    }
+}
+/* Mobile screens */
+@media screen and (max-width:500px) {
+    body{
+        padding: 21px 8px 24px 25px;
+    }
+    .hidden{
+        display: none;
+    }
+    .display{
+        display: inline-block;
+    }
+    .menu{
+        width: 38px;
+        height: 38px;
+        position: relative;
+        left: 325px;
+        top:2px;
+    }
+    .menu:hover{
+        cursor: pointer;
+    }
+    .close{
+        width: 38px;
+        height: 38px;
+        position: relative;
+        left: 325px;
+    }
+    #headTag{
+        position: relative;
+        bottom: 10px;
+    }
+    header nav{
+        float: none;
+    }
+    .navigation a{
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        margin-left: 0px;
+        padding-bottom: 16px;
+        position: relative;
+        left: 60px;
+        top: 250px;
+        z-index: 10;
+    }
+    .active, nav a:hover{
+        text-decoration: underline;
+        border-bottom: 0px solid white;
+        font-weight: 700;
+    }
+    #sideContent{
+        width: 100%;
+        position: relative;
+        top: 40px;
+        float: none;
+    }
+    #sideContent #head{
+        font-size: 36px;
+        font-family: 500;
+    }
+    #sideContent p{
+        font-size: 14px;
+        width: 270px;
+    }
+    #sideContent span{
+        font-size: 14px;
+    }
+    #photoContent{
+        width: 100%;
+        float: none;
+        position: relative;
+        top: 70px;
+    }
+    #photoContent #mainPhoto{
+        width: 390px;
+        height: 290px;
+        margin-left: 5px;
+        position: relative;
+    }
+    #authorContent{
+        background-color: black;
+        width: 300px;
+        padding: 26px 34px;
+        height: 190px;
+        position: absolute;
+        left: 68px;
+        top: 240px;
+    }
+    #subPhoto{
+        width: 60px;
+    }
+    #subText div:first-child{
+        font-size: 12px;
+    }
+    #subText div:last-child{
+        font-size: 10px;
+        color: #828282;
+    }
+    #authorDesignation{
+        width: 210px;
+        font-size: 18px;
+    }
+    .overlay{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 100%;
+        background-color: #181719;
+        backdrop-filter: blur(3px);
+        z-index: 5;
+    }
+}
