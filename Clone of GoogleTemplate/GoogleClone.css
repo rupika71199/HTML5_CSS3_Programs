@@ -1,0 +1,563 @@
+*{
+
+    box-sizing: border-box;
+
+}
+
+body{
+
+    margin: 0px;
+
+    padding: 40px 30px;
+
+    font-family: Caudex;
+
+}
+
+.main-wrapper{
+
+    box-shadow: 1px 1px 7px 7px rgba(0, 0, 0, 0.518);
+
+    height: 1300px;
+
+    padding: 10px;
+
+}
+
+.sub-wrapper{
+
+    border-radius: 10px;
+
+    box-shadow: -1px 0px 1px 1px rgba(0, 0, 0, 0.087);
+
+    height: 1200px;
+
+    padding: 25px 0px;
+
+    background-color: #a3c7a480;
+
+    background-image: linear-gradient(to bottom, #a3c7a461 0%, #a3c7a461 100%),linear-gradient(to bottom, white 0%, white 100%);
+
+    background-clip: content-box, padding-box;
+
+}
+
+.header{
+
+    background-color: white;
+
+    border-radius: 10px;
+
+}
+
+.main-header{
+
+    height: 65px;
+
+    margin-left: 10px;
+
+    margin-right: 15px;
+
+}
+
+.logo{
+
+    float: left;
+
+}
+
+.logo img{
+
+    width: 100px;
+
+    height: 31px;
+
+}
+
+.searchBarIcons{
+
+    float: left;
+
+}
+
+.searchBarIcons img, svg{
+
+    width: 50px;
+
+    cursor: pointer;
+
+}
+
+.searchBarIcons .voice{
+
+    width: 46px;
+
+}
+
+.material-symbols-outlined {
+
+  font-variation-settings:
+
+  'FILL' 0,
+
+  'wght' 600,
+
+  'GRAD' 0,
+
+  'opsz' 48;
+
+  color: black;
+
+}
+
+.searchBarIcons{
+
+    margin-left: 50px;
+
+    position: relative;
+
+    top: -28px;
+
+}
+
+input[type=search]{
+
+    width: 480px;
+
+    height: 35px;
+
+    border-radius: 18px;
+
+    outline: none;
+
+    border: 1px solid white;
+
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.518);
+
+    padding: 18px;
+
+    margin-top: 24px;
+
+}
+
+.searchBarIcons img{
+
+    position: relative;
+
+    right: 157px;
+
+    top: 11px;
+
+}
+
+.searchBarIcons .lens{
+
+    right: 175px;
+
+    top: 14px;
+
+    width: 36px;
+
+}
+
+.searchBarIcons svg{
+
+    position: relative;
+
+    right: 181px;
+
+    top: 10px;
+
+}
+
+.rightIcons{
+
+    float: right;
+
+}
+
+.rightIcons svg,span,img{
+
+    cursor: pointer;
+
+    margin-left: 10px;
+
+    position: relative;
+
+    top: 3px;
+
+}
+
+.rightIcons img{
+
+    width: 35px;
+
+    height: 35px;
+
+    border-radius: 50%;
+
+}
+
+.quick-actions{
+
+    position: relative;
+
+    left: 153px;
+
+    top: -17px;
+
+    height: 20px;
+
+    width: 800px;
+
+}
+
+.quick-actions div{
+
+    float: left;
+
+    margin-left: 12px;
+
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.196);
+
+    border-radius: 10px;
+
+    padding: 6px;
+
+    cursor: pointer;
+
+}
+
+.quick-actions div:first-child{
+
+    border-radius: 10px 0px;
+
+    height: 30px;
+
+    padding: 2px;
+
+}
+
+.quick-actions div:first-child #first{
+
+    position: relative;
+
+    left: -12px;
+
+    top: -6px;
+
+}
+
+.material-symbols-outlined{
+
+    margin-left: 0px;
+
+}
+
+/* Main Content */
+
+.mainClass{
+
+    height: 700px;
+
+}
+
+.subClass{
+
+    padding: 25px 71px 10px 156px;
+
+    height: 500px;
+
+}
+
+.subClass-left{
+
+    width: 55%;
+
+    float: left;
+
+    padding-right: 10px;
+
+}
+
+.subClass-right{
+
+    width: 45%;
+
+    float: right;
+
+}
+
+.subClass-left span{
+
+    margin-left: 0px;
+
+    cursor: default;
+
+    position: relative;
+
+    top: -7px;
+
+    left: -7px;
+
+    font-weight: 600;
+
+    color: #1f513a;
+
+    font-size: 15px;
+
+}
+
+#paragraph{
+
+    padding-left: 10px;
+
+    color: #1f513a;
+
+    font-size: 18px;
+
+}
+
+.card-flex{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    position: relative;
+
+    top: 17px;
+
+}
+
+.card-img{
+
+    width: 150px;
+
+    height: 100px;
+
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.card-item{
+
+    width: 160px;
+
+    height: 275px;
+
+ 
+
+}
+
+.card-content{
+
+    margin-left: 10px;
+
+    padding: 17px 6px 11px 13px;
+
+    height: 270px;
+
+    background-color: white;
+
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+ 
+
+.card-caption{
+
+    position: relative;
+
+    top: 43px;
+
+}
+
+.card-caption span{
+
+    position: relative;
+
+    top: 7px;
+
+}
+
+.card-caption a{
+
+    text-decoration: none;
+
+    color: black;
+
+}
+
+#box{
+
+    position: relative;
+
+    left: 435px;
+
+}
+
+/* Follow Up */
+
+.followUpItems{
+
+    display: flex;
+
+    position: relative;
+
+    left: 165px;
+
+    width: 900px;
+
+    top: 20px;
+
+}
+
+.followUpItems>div:first-child{
+
+    width: 170px;
+
+}
+
+.followUpItems>div{
+
+    width: 255px;
+
+    background-color: #a3c7a488;
+
+    padding: 2px 5px;
+
+    border-radius: 15px 5px 15px 16px;
+
+    position: relative;
+
+    cursor: pointer;
+
+    margin-right: 15px;
+
+}
+
+.followUpItems #last{
+
+    width: 295px;
+
+}
+
+#active{
+
+    background-color: #1f513a;
+
+    color: white;
+
+    font-weight: 500;
+
+}
+
+#like{
+
+    position: relative;
+
+    left: 100px;
+
+}
+
+/* Search Results */
+
+.search{
+
+    background-color: white;
+
+    height: 350px;
+
+    margin-top: 30px;
+
+    background-clip: content-box;
+
+    border-radius: 10px ;
+
+}
+
+.searchValues{
+
+    position: relative;
+
+    top: 75px;
+
+    margin-left: 155px;
+
+    width: 50%;
+
+    display: flex;
+
+}
+
+.searchValues-content-first{
+
+    display: flex;
+
+}
+
+.searchValues-content-logo{
+
+    width: 40px;
+
+    position: relative;
+
+    top: 10px;
+
+}
+
+.searchValues-content-logoVal{
+
+    width: 60px;
+
+    height: 50px;
+
+    background-color: rgb(230, 226, 226);
+
+    border-radius: 50%;
+
+}
+
+.searchValues-content-header h4, .searchValues-content-second h2{
+
+    margin: 0;
+
+}
+
+.searchValues-content-second{
+
+    width: 70%;
+
+}
+
+.searchValues-content-second p{
+
+    margin: 10px 0px;
+
+}
+
+.searchValues-content-header{
+
+    margin-left: 10px;
+
+}
+
+.searchValues-content-header cite{
+
+    font-style: normal;
+
+}
+
+.searchValues-img{
+
+    width: 25%;
+
+}
+
+.searchValues-img img{
+
+    border-radius: 10px;
+
+}
