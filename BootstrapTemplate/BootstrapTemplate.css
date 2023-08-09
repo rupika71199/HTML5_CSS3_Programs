@@ -1,0 +1,479 @@
+*{
+
+    box-sizing: border-box;
+
+}
+
+.header-container{
+
+    background: linear-gradient(to right, rgb(150, 16, 240), rgb(42, 3, 140));
+
+}
+
+.contact-us{
+
+    background-color: rgb(54, 1, 186);
+
+}
+
+.title{
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+.activate{
+
+    font-weight: 600;
+
+}
+
+.outer-container{
+
+    float: left;
+
+    border: 1px solid white;
+
+    padding: 5px;
+
+    border-radius: 50%;
+
+    margin-left: 15px;
+
+    cursor: pointer;
+
+}
+
+.smaller{
+
+    position: relative;
+
+    left: 10%;
+
+}
+
+
+
+.carousel-img{
+
+    height: 350px;
+
+}
+
+.mt-5 h1, .mt-5 h3{
+
+    color: white;
+
+}
+
+.section, .products-second,.products-sale{
+
+    background-color: rgba(223, 174, 255, 0.726);
+
+}
+
+.products-first,.products-third,.footer-main{
+
+    background-color: rgb(215, 215, 215);
+
+}
+
+.prodImg{
+
+    height: 225px;
+
+}
+
+.d-flex a{
+
+    text-decoration: none;
+
+    color: rgb(92, 92, 92);
+
+}
+
+#See-more{
+
+    color: black;
+
+    font-weight: 500;
+
+}
+
+.rolex{
+
+    height: 70%;
+
+}
+
+.card{
+
+    background-color: rgba(255, 255, 255, 0.564);
+
+    box-shadow: 1px 8px 8px 0px rgba(0, 0, 0, 0.584);
+
+}
+
+.card-one{
+
+    height: 500px;
+
+}
+
+.hammer{
+
+    height: 100%;
+
+}
+
+.smartwatch{
+
+    height: 70%;
+
+}
+
+.card-third {
+
+    height: 270px;
+
+}
+
+.navigation{
+
+    float: right;
+
+}
+
+.nav-link{
+
+    color: rgb(92, 92, 92);
+
+}
+
+.nav-link:hover{
+
+    color: black;
+
+}
+
+#hyper-active{
+
+    text-decoration: underline;
+
+    color: #8103d5;
+
+}
+
+.hyper-active:hover{
+
+    color: #6101a1;
+
+}
+
+.outer-container-price{
+
+    float: left;
+
+    border: 1px solid #8103d5;
+
+    padding: 5px;
+
+    border-radius: 50%;
+
+    cursor: pointer;
+
+    position: absolute;
+
+    right: 13px;
+
+    bottom: 32px;
+
+}
+
+.price-img{
+
+    width: 250px;
+
+    height: 300px;
+
+    padding-left: 10px;
+
+}
+
+#pricelogo{
+
+    fill: #8103d5;
+
+}
+
+.prevIcon{
+
+    position: relative;
+
+    left: 40%;
+
+    top: 31.5px;
+
+}
+
+.nextIcon{
+
+    position: relative;
+
+    left: 50%;
+
+}
+
+.sale-product .card-link{
+
+    display: block;
+
+    margin-left: 0;
+
+    margin-top: 1.5rem;
+
+    text-decoration: none;
+
+    color: rgb(92, 92, 92);
+
+}
+
+.sale-img{
+
+    width: 100%;
+
+    position: relative;
+
+    bottom: 168px;
+
+}
+
+.sale-card{
+
+    height: 400px;
+
+}
+
+.circle{
+
+    background-color: #6101a1;
+
+    color: white;
+
+    display: inline-block;
+
+    padding: 15px;
+
+    border-radius: 50%;
+
+    position: relative;
+
+    left: 80%;
+
+    z-index: 3;
+
+    top: 12%;
+
+}
+
+.sale-content{
+
+    width: 31%;
+
+    height: fit-content;
+
+}
+
+.features-content{
+
+    height: fit-content;
+
+}
+
+.offer-product{
+
+    height: 580px;
+
+}
+
+#org-price{
+
+    display: inline;
+
+}
+
+.striked-price{
+
+    text-decoration: line-through;
+
+    margin-left: 10px;
+
+    color: #8103d5;
+
+}
+
+.sale-content-value{
+
+    padding-top: 15px;
+
+    color: rgb(92, 92, 92);
+
+
+
+}
+
+#start{
+
+    float: left;
+
+}
+
+#end{
+
+    position: relative;
+
+    left: 175px;
+
+    width: fit-content;
+
+}
+
+.cart-btn{
+
+    background-color: #6101a1;
+
+    color: white;
+
+}
+
+.cart-btn:hover{
+
+    background-color: #520089;
+
+    color: white;
+
+}
+
+.subscription h5, .subscription h1{
+
+    color: white;
+
+}
+
+.contact-us p{
+
+    color: rgb(19, 0, 65);
+
+}
+
+.subscribe-btn{
+
+    width: 150px;
+
+    border-radius: 20px;
+
+}
+
+.footer-sub-rows p{
+
+    color: rgb(92, 92, 92);
+
+}
+
+.outer-social-container{
+
+    border: 1px solid #8103d5;
+
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+
+#social{
+
+    fill: #8103d5;
+
+}
+
+.copy{
+
+    color: rgb(92, 92, 92);
+
+}
+
+.outer-hash-container{
+
+    border: 1px solid  rgb(92, 92, 92);
+
+    color:  rgb(92, 92, 92);
+
+    padding: 5px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .smartwatch{
+
+        height: 100%;
+
+        padding-top: 10px;
+
+    }
+
+    .navigation{
+
+        float: left;
+
+    }
+
+    .navigation .nav-link{
+
+        padding: 4px 12px 0px 0px;
+
+    }
+
+    .card-one img{
+
+        height: 364px;
+
+        width: 300px;
+
+        position: relative;
+
+        left: 30px;
+
+        bottom: 27px;
+
+    }
+
+    .sale-img{
+
+        bottom: 35px;
+
+    }
+
+    .circle{
+
+        position: relative;
+
+        left: 75%;
+
+        z-index: 3;
+
+        top: 17%;
+
+    }
+
+    .sale-content{
+
+        width: 100%;
+
+    }
+
+
+
+}
